@@ -1,0 +1,332 @@
+/* Laptop */
+@media only screen and (min-width: 2560px){
+
+    // Videos
+    .citrus_vetdiet__video_container{
+        margin: 7rem 0;
+        .citrus_vetdiet__video_container--col{
+            .single-video{
+                iframe{
+                    min-height: 30vh;
+                }
+            }
+        }
+    }
+    
+}
+
+/* Laptop */
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+
+    // Videos
+    .citrus_vetdiet__video_container{
+        margin: 6rem 0;
+        .citrus_vetdiet__video_container--col{
+            .single-video{
+                iframe{
+                    margin-top: -20%;
+                }
+            }
+        }
+    }
+    
+}
+
+/* Laptop */
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+
+    
+}
+
+/* Laptop */
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    
+}
+
+@media only screen and (min-width: 1024px){
+    .citrus_vetdiet {
+        .cta-box{
+            a{
+                padding: 17px 0;
+                min-width: 209px;
+                max-width: 209px;
+                height: 54px;
+                display: flex;
+                align-items: center;
+                padding: 0;
+                justify-content: center;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1280px){
+    
+    
+}
+
+/* Medium devices */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    // POV
+    .citrus_vetdiet__pov--text{
+        h1{
+            font-size: 24px;
+            padding: 15px 0 10px;
+            max-width: 350px;
+            margin: 0 auto;
+        }
+    }
+
+    .citrus_vetdiet__pov--logo {
+        max-width: 100px;
+    }
+
+    .citrus_vetdiet__pov--text p {
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+
+    // Videos
+    .citrus_vetdiet__video_container{
+        .citrus_vetdiet__video_container--col{
+            .single-video{
+                iframe{
+                    min-height: 30vh;
+                }
+            }
+            .video-text{
+                padding: 2rem 0;
+            }
+        }
+    }
+    
+}
+
+/* Tab devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    // POV
+    .citrus_vetdiet_carousel-inner{
+        min-height: auto;
+    }
+    .citrus_vetdiet__pov--text {
+        h1{
+            max-width: 400px;
+            margin: 0 auto;
+            font-size: 21px;
+            padding: 10px 0;
+        }
+        p{
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
+    }
+
+    .citrus_vetdiet__pov--logo {
+        max-width: 90px;
+    }
+
+    .citrus_vetdiet_carousel-indicators{
+        display: none;
+    }
+
+    // Videos
+    .citrus_vetdiet__video_container{
+        .citrus_vetdiet__video_container--col{
+            .single-video{
+                iframe{
+                    min-height: 26vh;
+                }
+            }
+            .video-text{
+                padding: 1.5rem 0;
+                p{
+                    padding: 15px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px){
+
+    /* Show hide class */
+    .m-hide{
+        display: none;
+    }
+
+    .d-hide{
+        display: block;
+    }
+
+
+    // Common styls
+    .citrus_vetdiet{
+        .cta-box{
+            a{
+                background: none !important;
+                color: #00205B;
+                text-transform: capitalize;
+                text-decoration: underline !important;
+                border: none;
+            }
+        }
+        .cta-all-container{
+            a{
+                background: none;
+                color: #00205B;
+                text-transform: capitalize;
+                text-decoration: underline !important;
+                border: none;
+            }
+        }
+    }
+
+
+    // POV styles
+    .citrus_vetdiet_carousel-inner{
+        background: #000000;
+        .citrus_vetdiet_carousel-item{
+            .custom-container{
+                min-width: 100%;
+                flex-wrap: wrap;
+            }
+            .citrus_vetdiet_carousel-item__col{
+                min-width: calc(100% / 3);
+                max-width: calc(100% / 3);
+                &:nth-child(4){
+                    min-width: 100%;
+                    max-width: 100%;
+                    background: #000000;
+                    h1{
+                        color: #fff;
+                        font-size: 25px;
+                        padding: 20px 0 15px;
+                    }
+                    p{
+                        color: #fff;
+                        padding: 0 20px 15px;
+                    }
+                }
+                .citrus_vetdiet__pov--cta{
+                    padding: 0 0 60px;
+                    a{
+                        color: #fff !important;
+                        border: none !important;
+                        min-width: auto;
+                        margin: 0 15px;
+                        padding: 0;
+                    }
+                }
+                .citrus_vetdiet__pov--text{
+                    h1, p{
+                        max-width: 350px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            
+        }
+        .pov1{
+            background-image: url("img/citrus-vetdiet-hero1-bg-mob.jpg");
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .pov2{
+            background-image: url("img/citrus-vetdiet-hero2-bg-mob.jpg");
+        }
+        .pov3{
+            background-image: url("img/citrus-vetdiet-hero3-bg-mob.jpg");
+
+            .custom-container{
+                min-width: 100%;
+            }
+        }
+        .citrus_vetdiet__pov--logo{
+            max-width: 100px;
+        }
+    }
+
+
+    // Carousels
+    .citrus-vetdiet-main-tab-content{
+        .citrus-vetdiet-wrapper{
+            overflow: hidden;
+            .citrus-vetdiet-tab__btn,
+            .citrus-vetdiet-tab__btn2 {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                overflow-y: auto;
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                .citrus_vetdiet_tab_btn_single,
+                .citrus_vetdiet_tab_btn2_single{
+                    min-width: 195px;
+                }
+            }
+            
+        }
+    }
+
+    .citrus_vetdiet_tab_btn_single,
+    citrus_vetdiet_tab_btn2_single{
+        border-bottom: 8px solid #fff;
+    }
+
+
+
+    // Videos
+    .citrus_vetdiet__video_container{
+        flex-wrap: wrap !important;
+        .citrus_vetdiet__video_container--col{
+            width: 100%;
+            .single-video{
+                max-width: 100%;
+                padding: 0 15px;
+                iframe{
+                    min-height: 30vh;
+                    margin-top: 0;
+                }
+            }
+            .video-text{
+                padding: 3rem 15px;
+                p{
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    .citrus_vetdiet__video1{
+        .citrus_vetdiet__video_container--col:nth-child(1){
+            order: 2;
+        }
+    }
+
+
+    // Packages
+    .citrus_vetdiet__packages{
+        overflow: hidden;
+        .citrus_vetdiet__packages_wrapper{
+            overflow-x: auto;
+            .citrus_vetdiet__packages_wrapper--single-package{
+                margin: 16px;
+                min-width: 60%;
+            }
+        }
+    }
+
+
+
+}
