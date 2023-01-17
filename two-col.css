@@ -165,4 +165,31 @@ body {
   line-height: initial;
   font-family: "PetcoCircularTT-Bold", arial !important;
 }
-/*# sourceMappingURL=common.css.map */
+
+.citrus_vetdiet_help-pet__container {
+  padding: 0 5%;
+  margin-bottom: 40px;
+}
+
+.citrus_vetdiet_help-pet__container .single-col {
+  padding: 0 15px;
+}
+
+.citrus_vetdiet_help-pet__container .single-col a {
+  display: block;
+  text-align: center;
+}
+
+.citrus_vetdiet_help-pet__container .single-col .single-col__txt {
+  background: #F1F2F5;
+  padding: 40px 15px;
+}
+
+.citrus_vetdiet_help-pet__container .single-col .single-col__txt h3 {
+  font-size: 20px;
+  color: #000000;
+  max-width: 310px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=two-col.css.map */
