@@ -13,6 +13,7 @@
 .citrus_vetdiet_pet-health__container .single-content a {
   display: block;
   text-align: center;
+  cursor: unset;
 }
 
 .citrus_vetdiet_pet-health__container .single-content a .single-content__img {

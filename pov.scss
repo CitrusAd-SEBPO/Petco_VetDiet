@@ -20,6 +20,17 @@
             background-repeat: no-repeat;
             background-position: center;
             width: 100%;
+            .citrus_vetdiet_carousel-item__col{
+                &:nth-child(1){
+                    width: 30%;
+                }
+                &:nth-child(2){
+                    width: 40%;
+                }
+                &:nth-child(3){
+                    width: 30%;
+                }
+            }
             .citrus_vetdiet__pov--text{
                 width: 100%;
                 text-align: center;
@@ -39,11 +50,6 @@
                     color: #fff;
                     padding-bottom: 20px;
                 }
-                .citrus_vetdiet__pov--cta{
-                    a{
-                        
-                    }
-                }
             }
             .custom-container{
                 justify-content: space-between;
@@ -58,12 +64,12 @@
                     font-size: 16px;
                     color: #000000;
                     padding-bottom: 20px;
-                }
-                .citrus_vetdiet__pov--cta{
-                    a{
-                        background: #001952 !important;
-                        color: #fff !important;
-                    }
+                } 
+            }
+            .citrus_vetdiet__pov--cta{
+                a{
+                    background: #001952 !important;
+                    color: #fff !important;
                 }
             }
         }

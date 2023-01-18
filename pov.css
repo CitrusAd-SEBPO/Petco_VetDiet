@@ -42,6 +42,18 @@
   width: 100%;
 }
 
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet_carousel-item__col:nth-child(1) {
+  width: 30%;
+}
+
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet_carousel-item__col:nth-child(2) {
+  width: 40%;
+}
+
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet_carousel-item__col:nth-child(3) {
+  width: 30%;
+}
+
 .citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet__pov--text {
   width: 100%;
   text-align: center;
@@ -87,7 +99,7 @@
   padding-bottom: 20px;
 }
 
-.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .pov2 .citrus_vetdiet__pov--text .citrus_vetdiet__pov--cta a {
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .pov2 .citrus_vetdiet__pov--cta a {
   background: #001952 !important;
   color: #fff !important;
 }
