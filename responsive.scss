@@ -50,23 +50,30 @@
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
 
     // POV
-    .citrus_vetdiet__pov--text{
-        h1{
-            font-size: 24px;
-            padding: 15px 0 10px;
-            max-width: 350px;
-            margin: 0 auto;
+    .citrus_vetdiet_carousel{
+        .citrus_vetdiet_carousel-inner{
+            .citrus_vetdiet_carousel-item{
+                .citrus_vetdiet__pov--text{
+                    h1{
+                        font-size: 24px;
+                        padding: 10px 0;
+                        line-height: 28px !important;
+                    }
+                    p {
+                        padding-bottom: 10px;
+                        font-size: 14px;
+                    }
+                }
+            }
         }
     }
+    
 
     .citrus_vetdiet__pov--logo {
         max-width: 100px;
     }
 
-    .citrus_vetdiet__pov--text p {
-        padding-bottom: 15px;
-        font-size: 14px;
-    }
+    
 
 
     
@@ -76,24 +83,34 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     // POV
-    .citrus_vetdiet_carousel-inner{
-        min-height: auto;
-    }
-    .citrus_vetdiet__pov--text {
-        h1{
-            max-width: 400px;
-            margin: 0 auto;
-            font-size: 21px;
-            padding: 10px 0;
-        }
-        p{
-            padding-bottom: 10px;
-            font-size: 14px;
+    .citrus_vetdiet_carousel{
+        .citrus_vetdiet_carousel-inner{
+            min-height: auto;
+            .citrus_vetdiet_carousel-item{
+                .citrus_vetdiet__pov--text{
+                    h1{
+                        font-size: 19px;
+                        padding: 10px 0;
+                        line-height: 21px !important;
+                    }
+                    p {
+                        font-size: 13px;
+                        padding-bottom: 10px;
+                        line-height: 15px;
+                    }
+                }
+                .citrus_vetdiet__pov--cta{
+                    a{
+                        height: 44px;
+                    }
+                }
+            }
         }
     }
 
     .citrus_vetdiet__pov--logo {
         max-width: 90px;
+        padding-top: 10px;
     }
 
     .citrus_vetdiet_carousel-indicators{
@@ -150,22 +167,8 @@
                 flex-wrap: wrap;
             }
             .citrus_vetdiet_carousel-item__col{
-                min-width: calc(100% / 3);
-                max-width: calc(100% / 3);
-                &:nth-child(4){
-                    min-width: 100%;
-                    max-width: 100%;
-                    background: #000000;
-                    h1{
-                        color: #fff;
-                        font-size: 25px;
-                        padding: 20px 0 15px;
-                    }
-                    p{
-                        color: #fff;
-                        padding: 0 20px 15px;
-                    }
-                }
+                min-width: 100%;
+                max-width: 100%;
                 .citrus_vetdiet__pov--cta{
                     padding: 0 0 60px;
                     a{
@@ -181,27 +184,31 @@
                         max-width: 350px;
                         margin: 0 auto;
                     }
+                    h1{
+                        font-size: 26px;
+                    }
                 }
             }
             
         }
         .pov1{
-            background-image: url("img/citrus-vetdiet-hero1-bg-mob.jpg");
+            background-image: url("img/citrus_vetdiet_pov1_bg_mob.jpg");
             display: flex;
             flex-wrap: wrap;
         }
         .pov2{
-            background-image: url("img/citrus-vetdiet-hero2-bg-mob.jpg");
+            background-image: url("img/citrus_vetdiet_pov2_bg_mob.jpg");
         }
         .pov3{
-            background-image: url("img/citrus-vetdiet-hero3-bg-mob.jpg");
+            background-image: url("img/citrus_vetdiet_pov3_bg_mob.png");
 
             .custom-container{
                 min-width: 100%;
             }
         }
         .citrus_vetdiet__pov--logo{
-            max-width: 100px;
+            max-width: 130px;
+            padding: 15px 0 0;
         }
     }
 

@@ -10,7 +10,7 @@
           justify-content: flex-start;
 }
 
-.citrus_vetdiet_carousel-inner {
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,10 +24,9 @@
   -webkit-box-align: start !important;
       -ms-flex-align: start !important;
           align-items: flex-start !important;
-  min-height: 315px;
 }
 
-.citrus_vetdiet_carousel-item {
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,26 +42,14 @@
   width: 100%;
 }
 
-.citrus_vetdiet_carousel-item .custom-container {
-  -webkit-box-align: start !important;
-      -ms-flex-align: start !important;
-          align-items: flex-start !important;
-}
-
-.citrus_vetdiet_carousel-item .custom-container {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.citrus_vetdiet__pov--text {
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet__pov--text {
   width: 100%;
   text-align: center;
 }
 
-.citrus_vetdiet__pov--text h1 {
-  font-size: 35px;
-  color: #000;
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet__pov--text h1 {
+  font-size: 34px;
+  color: #fff;
   padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,12 +60,36 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  line-height: 36px;
+  max-width: 620px;
+  margin: 0 auto;
 }
 
-.citrus_vetdiet__pov--text p {
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .citrus_vetdiet__pov--text p {
   font-size: 16px;
-  color: #000;
+  color: #fff;
   padding-bottom: 20px;
+}
+
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .citrus_vetdiet_carousel-item .custom-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .pov2 .citrus_vetdiet__pov--text h1 {
+  color: #000000;
+}
+
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .pov2 .citrus_vetdiet__pov--text p {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.citrus_vetdiet_carousel .citrus_vetdiet_carousel-inner .pov2 .citrus_vetdiet__pov--text .citrus_vetdiet__pov--cta a {
+  background: #001952 !important;
+  color: #fff !important;
 }
 
 .citrus_vetdiet__pov--cta {
@@ -116,11 +127,6 @@
   max-width: 500px;
 }
 
-.citrus_vetdiet__pov--shots img {
-  max-width: 300px;
-  margin: 0 auto;
-}
-
 .citrus_vetdiet_carousel-inner {
   background-position: center;
   background-repeat: no-repeat;
@@ -128,15 +134,11 @@
 }
 
 .citrus_vetdiet_carousel-inner .pov1 {
-  background-image: url("img/citrus-vetdiet-hero1-bg-dsk.jpg");
+  background: #000;
 }
 
 .citrus_vetdiet_carousel-inner .pov2 {
-  background-image: url("img/citrus-vetdiet-hero2-bg-dsk.jpg");
-}
-
-.citrus_vetdiet_carousel-inner .pov2 .citrus_vetdiet_carousel-item__col:nth-child(3) {
-  opacity: 0;
+  background-image: url("img/citrus_vetdiet_pov2_bg_dsk.jpg");
 }
 
 .citrus_vetdiet_carousel-inner .pov2 .custom-container {
@@ -144,11 +146,7 @@
 }
 
 .citrus_vetdiet_carousel-inner .pov3 {
-  background-image: url("img/citrus-vetdiet-hero3-bg-dsk.jpg");
-}
-
-.citrus_vetdiet_carousel-inner .pov3 .citrus_vetdiet_carousel-item__col:nth-child(1) {
-  opacity: 0;
+  background-image: url("img/citrus_vetdiet_pov3_bg_dsk.jpg");
 }
 
 .citrus_vetdiet_carousel-inner .pov3 .custom-container {
