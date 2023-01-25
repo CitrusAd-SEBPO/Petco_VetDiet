@@ -155,7 +155,6 @@ button {
 
 .citrus_vetdiet_tab_controls .splide__arrow--prev {
   left: 2px;
-  opacity: 0 !important;
 }
 
 .citrus_vetdiet_tab_controls .splide__arrow svg {
@@ -185,5 +184,10 @@ button {
   transform: translateY(-50%);
   width: 2.2em;
   z-index: 1;
+}
+
+/* custom css */
+.splide__arrow:disabled {
+  opacity: 0;
 }
 /*# sourceMappingURL=carousel.css.map */
